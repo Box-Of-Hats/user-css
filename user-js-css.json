@@ -1,0 +1,66 @@
+{
+    "libs": [{ "name": "jQuery 3", "src": "@extension@jquery.min.js" }],
+    "settings": {
+        "badgeCounter": true,
+        "editorConfig": {
+            "enableBasicAutocompletion": false,
+            "enableLiveAutocompletion": true,
+            "enableSnippets": true,
+            "fontSize": 15,
+            "highlightActiveLine": false,
+            "keyboardHandler": false,
+            "showPrintMargin": false,
+            "tabSize": 4,
+            "theme": "ace/theme/twilight",
+            "useSoftTabs": true,
+            "useWorker": true,
+            "wrap": true
+        },
+        "supportBtn": false,
+        "themesFolder": [
+            "chrome",
+            "clouds",
+            "dawn",
+            "dracula",
+            "dreamweaver",
+            "eclipse",
+            "github",
+            "monokai",
+            "solarized_dark",
+            "solarized_light",
+            "textmate",
+            "tomorrow",
+            "tomorrow_night",
+            "twilight"
+        ],
+        "version": 8
+    },
+    "sites": [
+        {
+            "compiledCss": ".yttpu_container {background-color: rgb(18, 18, 18) !important; border: 3px solid rgb(37, 37, 37) !important;}",
+            "css": ".yttpu_container {\n    \n\tbackground-color: #121212 !important;  \n\tborder: #252525 !important;\n\tborder-style: solid !important;\n\tborder-width: 3px !important;\n}\n\n",
+            "id": "youtube.com",
+            "js": "",
+            "libs": ["jQuery 3"],
+            "options": {
+                "altCSS": false,
+                "altJS": false,
+                "autoImportant": false,
+                "on": false
+            }
+        },
+        {
+            "compiledCss": "* {color: rgb(190, 194, 204)!important;}#main {background-color: rgb(32, 32, 40)!important;}a {color: rgb(69, 145, 237)!important; font-weight: 600!important; transition: all 0.2s ease 0s!important;}a:hover {color: rgb(0, 201, 255)!important; text-decoration: none!important;}#docs-navbar {background-color: rgb(28, 28, 33)!important;}nav[role=\"navigation\"] {background-color: rgb(44, 44, 56)!important;}",
+            "css": "* {\n    color: rgb(190, 194, 204);;\n}\n\n#main {\n    background-color: rgb(32,32,40);\n}\n\na {\n    color: #4591ed;\n    text-decoration: bold;\n    font-weight: 600;\n    transition: 0.2s;\n}\na:hover {\n    color: #00c9ff;\n    text-decoration: none;\n}\n\n#docs-navbar {\n    background-color:  rgb(28, 28, 33);\n}\n\nnav[role=\"navigation\"]{\n    background-color: rgb(44, 44, 56);;\n}",
+            "id": "code.visualstudio.com",
+            "js": "",
+            "libs": [],
+            "options": {
+                "altCSS": false,
+                "altJS": false,
+                "autoImportant": true,
+                "on": true
+            }
+        }
+    ]
+}
